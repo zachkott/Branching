@@ -21,6 +21,10 @@ categories of git  commands, and practice with branching
 * `git checkout branchName` - switch to branch `branchName`
 * `git checkout -b otherBranch`  - switch to branch `otherBranch`, creating it if it doesn't exist
 
+###Remote commands
+* `git remote add origin someUrl` - connect  local repository to remote repository url as  `origin`
+* `git  push origin branchName` - push local commits to remote repository into branch `branchName`
+
 ### Other commands
 * `git help` - list git subcommands and options
 * `git config --help` - show options for  `git config`
